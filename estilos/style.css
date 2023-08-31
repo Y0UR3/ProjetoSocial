@@ -1,13 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-    background-image: url("imagens/fundo-madeira.jpg");
+    background-image: url("imagens/frame-iphone.png");
 }
-
-#container{
-    background-image: url("frame-iphone.png");
+.iphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    position: absolute;
+}
+.tela-home{
+    height: 480px;
 }
