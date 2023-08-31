@@ -1,6 +1,11 @@
-body {
-    background-image: url("imagens/frame-iphone.png");
+
+body{
+    height: 100%;
+    background-image: url("imagens/fundo.jpg");
 }
+
+
+
 .iphone{
     display: flex;
     align-items: center;
@@ -8,6 +13,7 @@ body {
 }
 .home{
     position: absolute;
+
 }
 .tela-home{
     height: 480px;
