@@ -9,38 +9,42 @@ body{
     background-attachment: fixed;
 }
 
-.iphone{
-    display: grid;
-    place-items: center;
-    padding: auto;
-    margin: auto;
-    padding-top: 2%;
-    height: 640px;
-}
-nav{
+#iphone{
     position: absolute;
-    right: 15px;
-    top: 15px;
-
-}
-.links{
-    text-decoration: none;
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat;
 }
 
-.logos{
+#tela{
+    position: relative;
+    top: 70px;
+    left: 22px;
+
+    height: 483px;
+    width: 268px;
+}
+
+#rede-sociais{
+    text-align: right;
+}
+
+#rede-sociais img{
     height: 50px;
+    margin: 10px;
     border-radius: 50%;
-
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
 }
 
-.logos:hover{
-    cursor: pointer;
-    border: 2px solid black;
-    border-color: brown;
-    transform: translate(-0.5em);
+#rede-sociais img:hover{
+    border: 2px solid wheat;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 9px black;
+
+    transform: translate(-5px, -5px);
+    transition: transform .2s, border .4s;
 }
